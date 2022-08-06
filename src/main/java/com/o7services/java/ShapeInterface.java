@@ -8,22 +8,7 @@ package com.o7services.java;
  *
  * @author o7solutions
  */
-public class Rectangle extends Shapes{
-
-    @Override
-    void CalculateArea() {
-       }
-
-    @Override
-    void getLength() {
-         }
-
-    @Override
-    void getBreadth() {
-         }
-
-    @Override
-    void getHeight() {
-       }
-    
+public interface ShapeInterface {
+    void draw();
+    void getSide();
 }

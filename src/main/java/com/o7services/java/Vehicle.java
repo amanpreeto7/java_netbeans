@@ -10,6 +10,9 @@ package com.o7services.java;
  */
 abstract class Vehicle {
     abstract void information();
+    void nonAbstractMethod(){
+        System.out.print("Non abstract method");
+    };
     
     
 }

@@ -18,6 +18,7 @@ public class Bike extends Vehicle{
     public static void main(String a[]){
         Bike bike = new Bike();
         bike.information();
+        bike.nonAbstractMethod();
     }
     
 }
